@@ -136,6 +136,9 @@ textarea {
     h2 {
         text-align: left;
     }
+    li:last-child {
+        margin-right: 0;
+    }
     p {
         text-align: left;
     }
@@ -144,7 +147,7 @@ textarea {
         width: 100vw;
         text-align: center;
         padding: 0;
-        /* ask about this can't seem to get rid of margin */
+        /* think it's centered looks a litte off though double check */
         margin-right: 0;
     }
     ul {
