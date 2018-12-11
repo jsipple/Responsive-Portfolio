@@ -1,0 +1,164 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    background-image: url('../images/houndstooth-pattern.png');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+header {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.relative {
+    position: relative;
+}
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 2em;
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+}
+nav {
+    float: right;
+}
+.nav-bar {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+}
+li {
+    display: inline;
+    font-size: 20px;
+    border-right: 1px solid gray;
+    padding: 10px;
+}
+li:last-child {
+    border-right: none;
+}
+.nav-link {
+    text-decoration: none;
+    list-style-type: none;
+    color: gray;
+}
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+   }
+#content {
+    padding: 10px;
+}
+h2 {
+    color: turquoise;
+}
+p {
+    line-height: 150%;
+    color: #777777
+}
+img {
+    margin-right: 10px;
+    width: 200px;
+    height: 200px;
+}
+.profile {
+    float: left;
+    height: 20%;
+    width: 20%;
+}
+.absolute {
+    position: absolute;
+    background: green;
+    width: 200px;
+    top: 150px;
+    line-height: 200%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.image {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    padding: 20px;
+}
+#footer {
+    background-color:  #666666;
+    bottom: 0;
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 5px solid #4aaaa5;
+    padding-bottom: 10px;
+}
+.footer {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+input {
+    width: 95%;
+}
+textarea {
+    width: 95%;
+    height: 100px;
+}
+@media screen and (max-width 980px) {
+
+}
+@media screen and (max-width: 768px) {
+
+    #wrapper {
+        width: 95%;
+    }
+    li:last-child {
+        margin-right: 35vw;
+    }
+    }
+    
+@media screen and (max-width: 640px) {
+    h2 {
+        text-align: left;
+    }
+    p {
+        text-align: left;
+    }
+    nav {
+        float: none;
+        width: 100vw;
+        text-align: center;
+        padding: 0;
+        /* ask about this can't seem to get rid of margin */
+        margin-right: 0;
+    }
+    ul {
+        padding: 0;
+        margin-left: 15vw;
+    }
+    .profile {
+        float: none;
+        align-self: center;
+        height: 75vh;
+        width: 75vw;
+    }
+    h1 {
+        width: 100vw;
+        text-align: center;
+    }
+}
