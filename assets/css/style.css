@@ -33,7 +33,7 @@ nav {
 .nav-bar {
     background-color: #ffffff;
     width: 960px;
-    margin: 0 auto;
+    margin-left: 1vw;
 }
 li {
     display: inline;
@@ -51,7 +51,7 @@ li:last-child {
 }
 #wrapper {
     width: 960px;
-    margin: 0 auto;
+    margin-left: 1vw;
     overflow: auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -101,7 +101,7 @@ img {
 #footer {
     background-color:  #666666;
     bottom: 0;
-    position: static;
+    position: absolute;
     width: 100%;
     margin-top: 20px;
     border-top: 5px solid #4aaaa5;
@@ -120,7 +120,12 @@ textarea {
     height: 100px;
 }
 @media screen and (max-width 980px) {
-
+    #wrapper {
+    margin: 0 auto;
+    }
+    .nav-bar {
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 768px) {
 
@@ -141,6 +146,10 @@ textarea {
     }
     p {
         text-align: left;
+    }
+    h1 {
+        text-align: center;
+        width: 100vw;
     }
     nav {
         float: none;
