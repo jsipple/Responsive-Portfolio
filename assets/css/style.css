@@ -101,7 +101,7 @@ img {
 #footer {
     background-color:  #666666;
     bottom: 0;
-    position: absolute;
+    position: static;
     width: 100%;
     margin-top: 20px;
     border-top: 5px solid #4aaaa5;
