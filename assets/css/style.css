@@ -51,11 +51,10 @@ li:last-child {
 #wrapper {
     width: 960px;
     margin-left: 1vw;
-    overflow: auto;
     background-color: #ffffff;
     border: 1px solid #dddddd;
     margin-bottom: 100px;
-}
+} 
 .clearfix::after {
     content: "";
     display: block;
