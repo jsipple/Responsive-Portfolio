@@ -72,7 +72,7 @@ p {
 }
 img {
     margin-right: 10px;
-    width: 200px;
+    width: 220px;
     height: 200px;
 }
 .profile {
@@ -83,7 +83,7 @@ img {
 .absolute {
     position: absolute;
     background: green;
-    width: 200px;
+    width: 220px;
     top: 150px;
     line-height: 200%;
     color: white;
